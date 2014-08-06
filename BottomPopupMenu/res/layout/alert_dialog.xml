@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="15dip" >
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_menu_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/up_bg"
+            android:text="@string/menu_1"
+            android:textColor="@color/sel_menu_text_color"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_menu_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dip"
+            android:background="@drawable/middle_bg"
+            android:text="@string/menu_2"
+            android:textColor="@color/sel_menu_text_color"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_menu_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dip"
+            android:background="@drawable/bottom_bg"
+            android:text="@string/menu_3"
+            android:textColor="@color/sel_menu_text_color"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/single_bg"
+            android:text="@string/cancel"
+            android:textColor="@color/sel_menu_text_color"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
